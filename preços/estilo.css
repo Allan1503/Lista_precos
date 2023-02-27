@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(academia_blur.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteiner {
+    width: 900px;
+    margin: auto;
+    align-items: center;
+}
+
+.conteudo {
+    width: 30%;
+    background-color: black;
+    border-radius: 20px;
+    margin: 5px;
+    margin-top: 8%;
+    float: left;
+    text-align: center;
+}
+
+.preco {
+    width: 120px;
+    height: 120px;
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+
+.detalhes {
+    margin-top: -50px;
+}
+
+.conteudo h1 {
+    font-size: 20px;
+    color: white;
+    line-height: 5;
+    text-transform: uppercase;
+}
+
+.preco h2 {
+    font-size: 40px;
+    color: white;
+    margin-left: -2px;
+}
+
+.detalhes h4 {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.conteudo a {
+    text-decoration: none;
+    padding: 10px 60px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.conteudo a:hover {
+    font-size: 17px;
+    text-decoration: none;
+    padding: 10px 60px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: black;
+    margin: 10% auto;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
